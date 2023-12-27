@@ -1,0 +1,15 @@
+PS D:\Flask_GB\HW4> python.exe app.py https://media.revistaad.es/photos/62c6d00913030ba8bac96311/16:9/w_2560%2Cc_limit/GettyImages-1317990289.jpg https://www.larousse.fr/encyclopedie/data/images/1311838-Jardin_compos%C3%A9_de_buis_taill%C3%A9s.jpg
+Start downloading by threading
+Image images\1311838-Jardin_compos%C3%A9_de_buis_taill%C3%A9s.jpg downloaded in 1.96
+Image images\GettyImages-1317990289.jpg downloaded in 2.21
+Downloading by threading complited in 2.21
+Start downloading by multiprocessing
+Image images\1311838-Jardin_compos%C3%A9_de_buis_taill%C3%A9s.jpg downloaded in 2.06
+Image images\GettyImages-1317990289.jpg downloaded in 2.31
+Downloading by multiprocessing complited in 3.39
+Start downloading by asyncio
+D:\Flask_GB\HW4\app.py:83: DeprecationWarning: There is no current event loop
+  loop = asyncio.get_event_loop()
+Image images\1311838-Jardin_compos%C3%A9_de_buis_taill%C3%A9s.jpg downloaded in 0.27
+Image images\GettyImages-1317990289.jpg downloaded in 1.12
+Downloading by asyncio complited in 1.12
